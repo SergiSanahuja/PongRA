@@ -971,5 +971,60 @@
     "hideInPanel": false,
     "expanded": false,
     "editable": true
+  },
+  {
+    "guid": {
+      "a": "9bfec20c-4c01-9135-f7c9-9c8a2bd4eaac",
+      "b": ""
+    },
+    "objGuid": "Guid(4782235245615802294, 18242181310675307676)",
+    "extraType": "Entity",
+    "name": "Win",
+    "rttiType": "SceneObject",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground"
+  },
+  {
+    "guid": {
+      "a": "e616d55e-e078-d6e6-99c3-3ccf777e795a",
+      "b": ""
+    },
+    "objGuid": "Guid(5335949821857630747, 14798962563479555500)",
+    "extraType": "ScreenTransform",
+    "name": "Screen Transform",
+    "rttiType": "ScreenTransform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "linkageSize": 0,
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "inspectorUICtx": "{}"
+  },
+  {
+    "guid": {
+      "a": "681946ff-9643-e9ba-aa8f-51520ae6eb68",
+      "b": ""
+    },
+    "objGuid": "Guid(5621668721644580842, 10836569427649834682)",
+    "extraType": "TextJS",
+    "name": "Text",
+    "rttiType": "JSScriptComponent",
+    "version": "0.2.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "artTextNameDropdown": "00000000-0000-0000-0000-000000008000",
+    "inspectorUICtx": "{}"
   }
 ]

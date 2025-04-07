@@ -1,0 +1,55 @@
+{
+	"name": "Reflect",
+	"id": "b07f2899-43d9-ade4-7b76-3752dda1f165",
+	"inputs": [
+		{
+			"name": "Direction",
+			"description": "The origin vector to calculate its reflection vector",
+			"type": "Vector2f",
+			"dynamic": true,
+			"displayType": "Vec2",
+			"nameKey": "graph_reflect_input_direction",
+			"descriptionKey": "graph_reflect_input_direction_description",
+			"displayTypeKey": "graph_type_vec2"
+		},
+		{
+			"name": "Normal",
+			"description": "The normal vector of the reflection surface",
+			"type": "Vector2f",
+			"dynamic": true,
+			"displayType": "Vec2",
+			"nameKey": "graph_reflect_input_normal",
+			"descriptionKey": "graph_reflect_input_normal_description",
+			"displayTypeKey": "graph_type_vec2"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "The reflection vector of A",
+			"type": "Vector2f",
+			"dynamic": true,
+			"displayType": "Vec2",
+			"nameKey": "graph_reflect_output_result",
+			"descriptionKey": "graph_reflect_output_result_description",
+			"displayTypeKey": "graph_type_vec2"
+		}
+	],
+	"js": "CGReflect.js",
+	"category": "Transform",
+	"supportedValueTypes": [
+		"Vector2f",
+		"Vector3f"
+	],
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"description": "Get the reflection vector of an input vector on a surface. Supported types: Vec2 and Vec3.",
+	"version": "1.0.0",
+	"onlineWebsite": "graph_reflect_website",
+	"nameKey": "graph_reflect_name",
+	"categoryKey": "graph_category_transform",
+	"descriptionKey": "graph_reflect_description"
+}
